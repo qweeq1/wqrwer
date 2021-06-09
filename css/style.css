@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+*, html, body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.active {
+  border: 3px solid #E09D81;
+}
+
+.action {
+  background: #F0EEDD;
+  padding: 10px 0;
+}
+.action p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+header {
+  padding: 25px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 1px solid #F0EEDD;
+  margin-bottom: 15px;
+  position: relative;
+}
+header nav li {
+  display: inline-block;
+  margin-right: 45px;
+}
+header nav li:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+header nav li:nth-child(-1) {
+  margin-right: 0;
+}
+header nav li a {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+header nav li a:hover {
+  color: crimson;
+  transition: 0.5s;
+}
+header nav li .circle {
+  width: 35px;
+  height: 35px;
+  background: #C87B5E;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+}
+header .logo p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.head_section {
+  background: url("../head.png") no-repeat center;
+  background-size: cover;
+  padding: 169px 0;
+}
+.head_section .head_section_info_block {
+  margin-left: 383px;
+}
+.head_section .head_section_info_block p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.head_section .head_section_info_block h1 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 76px;
+}
+.head_section .head_section_info_block h1 span {
+  position: relative;
+}
+.head_section .head_section_info_block h1 span:before {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 3px;
+  background: #000;
+  bottom: 5px;
+}
+.head_section .head_section_info_block .head_section_btn {
+  padding: 19px 58px;
+  background: #D37657;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+}
+.head_section .head_section_info_block .head_section_btn:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.3);
+  width: 0;
+  height: 100%;
+}
+.head_section .head_section_info_block .head_section_btn:hover:before {
+  width: 100%;
+  transition: 0.5s all;
+}
+
+.partners {
+  background: #F0EEDD;
+  padding: 70px 0;
+}
+.partners h2 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.partners .partners_name {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.description {
+  padding: 115px 0;
+}
+.description .description_wrap {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+}
+.description .description_wrap h2 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 41px;
+  font-weight: bold;
+  text-align: center;
+  width: 310px;
+}
+.description .description_wrap p {
+  width: 650px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.designed {
+  background: #F0EEDD;
+  padding: 70px 0;
+}
+.designed .color_choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 45px;
+}
+.designed .color_choice button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #E09D81;
+  margin-right: 15px;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+.designed .color_choice .one {
+  background: #E09D81;
+}
+.designed .color_choice .two {
+  background: #748EA1;
+}
+.designed .color_choice .three {
+  background: #B76D47;
+}
+.designed .color_choice .four {
+  background: #7D836E;
+}
+.designed .color_choice .five {
+  background: #C33636;
+}
+.designed .color_choice .six {
+  background: #CDC7B3;
+}
+.designed .color_choice .seven {
+  background: #E09D81;
+}
+.designed .color_choice .eight {
+  background: #D3C2CA;
+}
+.designed .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.designed .image .image_text {
+  text-align: center;
+}
+.burger_menu{
+  display: none;
+}
+.current{
+  border-bottom: 1px solid black;
+}
+
+.single-item div img{
+  height: 600px;
+}

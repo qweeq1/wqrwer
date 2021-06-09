@@ -1,0 +1,23 @@
+@import "variables";
+
+@mixin font($size,$color:black,$weight:400){
+  font-family: 'Roboto', sans-serif;
+  color: $color;
+  font-size: $size;
+  font-weight: $weight;
+}
+@mixin flex($justify,$direction:row,$align:center){
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+@mixin color_pick($color:$one){
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: $color;
+  margin-right: 15px;
+  cursor: pointer;
+  box-sizing: content-box;
+}
